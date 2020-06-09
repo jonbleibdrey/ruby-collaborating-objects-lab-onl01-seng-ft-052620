@@ -8,6 +8,6 @@ class MP3Importer
   end
   
   def files
-    Dir.foreach(@path)
+    Dir.foreach(@path).include?("mp3")
   end
 end
