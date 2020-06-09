@@ -20,5 +20,7 @@ class Artist
     
   end
   
+  def self.find
+  
   
 end
