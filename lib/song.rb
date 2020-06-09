@@ -5,6 +5,7 @@ class Song
   
   def initialized(name)
     @name = name
+  end
   
   
   
