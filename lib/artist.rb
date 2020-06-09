@@ -27,6 +27,7 @@ class Artist
     else
       self.new
     end
+  end
   
     
     
