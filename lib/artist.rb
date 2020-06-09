@@ -25,7 +25,7 @@ class Artist
     if artistss
       artistss
     else
-      self.new
+      self.new(name)
     end
   end
   
