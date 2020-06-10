@@ -9,17 +9,13 @@ class MP3Importer
     Dir.foreach(@path) do |file|
       if file.include?("mp3")
         @files << file
-        
       end
-
     end
-    binding.pry
   end
   
   def import
     @files.each do |file|
-      Song.new_by_file(file)
-      
+      Song.new_by_filename(file)
     end
   end
 end
