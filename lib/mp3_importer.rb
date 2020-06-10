@@ -18,7 +18,4 @@ class MP3Importer
       Song.new_by_file(file)
     end
   end
-  end
-
-end
 end
