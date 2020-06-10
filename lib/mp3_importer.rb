@@ -6,6 +6,7 @@ class MP3Importer
   def initialize(file_path)
     @path = file_path 
     @files = []
+    binding.pry
     Dir.foreach(@path) do |file|
       if file.include?("mp3")
         @files << file
