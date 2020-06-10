@@ -16,5 +16,10 @@ class Song
    song.artist = file[0]
    song
   end
+  
+  def self.all
+    @@all
+  end
+    
 end
   
