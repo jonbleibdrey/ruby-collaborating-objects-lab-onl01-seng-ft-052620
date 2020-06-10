@@ -12,6 +12,10 @@ class MP3Importer
       end
     end
   end
+  
+  def import
+    @files.each do 
+  end
 
   
 end
