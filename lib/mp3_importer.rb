@@ -11,5 +11,7 @@ class MP3Importer
         @files << file
       end
     end
+  end
+
   
 end
